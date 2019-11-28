@@ -2,11 +2,11 @@ import win.ui;
 /*DSG{{*/
 var winform = win.form(text="aardio form";right=247;bottom=239;bgcolor=16777215)
 winform.add(
-button={cls="button";text="测试连接";left=64;top=168;right=176;bottom=200;z=9};
-edit={cls="edit";text="192.168.1.1";left=97;top=26;right=197;bottom=51;edge=1;group=1;z=2};
-edit2={cls="edit";text="orcl";left=97;top=62;right=197;bottom=87;edge=1;group=1;z=4};
-edit3={cls="edit";text="user";left=97;top=97;right=197;bottom=122;edge=1;group=1;z=6};
-edit4={cls="edit";text="user";left=97;top=133;right=197;bottom=158;edge=1;group=1;password=1;z=8};
+button={cls="button";text="测试连接";left=64;top=176;right=176;bottom=208;z=9};
+data_ip={cls="edit";text="192.168.1.1";left=97;top=26;right=197;bottom=51;edge=1;group=1;z=2};
+data_name={cls="edit";text="orcl";left=97;top=62;right=197;bottom=87;edge=1;group=1;z=4};
+data_pwd={cls="edit";text="user";left=97;top=133;right=197;bottom=158;edge=1;group=1;password=1;z=8};
+data_user={cls="edit";text="user";left=97;top=97;right=197;bottom=122;edge=1;group=1;z=6};
 static={cls="static";text="连接地址";left=29;top=27;right=80;bottom=45;group=1;transparent=1;z=1};
 static2={cls="static";text="实例名称";left=29;top=60;right=83;bottom=85;group=1;transparent=1;z=3};
 static4={cls="static";text="用户";left=29;top=100;right=83;bottom=125;group=1;transparent=1;z=5};
