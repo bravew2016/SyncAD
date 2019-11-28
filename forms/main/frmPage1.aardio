@@ -1,8 +1,16 @@
 import win.ui;
 /*DSG{{*/
-var winform = win.form(text="aardio form";right=759;bottom=469;bgcolor=16777215)
+var winform = win.form(text="aardio form";right=247;bottom=239;bgcolor=16777215)
 winform.add(
-edit={cls="edit";left=14;top=14;right=743;bottom=445;db=1;dl=1;dr=1;dt=1;edge=1;multiline=1;z=1}
+button={cls="button";text="测试连接";left=64;top=168;right=176;bottom=200;z=9};
+edit={cls="edit";text="192.168.1.1";left=97;top=26;right=197;bottom=51;edge=1;group=1;z=2};
+edit2={cls="edit";text="orcl";left=97;top=62;right=197;bottom=87;edge=1;group=1;z=4};
+edit3={cls="edit";text="user";left=97;top=97;right=197;bottom=122;edge=1;group=1;z=6};
+edit4={cls="edit";text="user";left=97;top=133;right=197;bottom=158;edge=1;group=1;password=1;z=8};
+static={cls="static";text="连接地址";left=29;top=27;right=80;bottom=45;group=1;transparent=1;z=1};
+static2={cls="static";text="实例名称";left=29;top=60;right=83;bottom=85;group=1;transparent=1;z=3};
+static4={cls="static";text="用户";left=29;top=100;right=83;bottom=125;group=1;transparent=1;z=5};
+static5={cls="static";text="密码";left=29;top=140;right=56;bottom=158;group=1;notify=1;transparent=1;z=7}
 )
 /*}}*/
 
